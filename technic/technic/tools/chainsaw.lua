@@ -39,7 +39,7 @@ end
 
 -- Support moretrees if it is there
 if minetest.get_modpath("moretrees") then
-	timber_nodenames["moretrees:acacia_trunk"]                = true
+	timber_nodenames["moretrees:acacia_trunk"]                     = true
 	timber_nodenames["moretrees:apple_tree_trunk"]                 = true
 	timber_nodenames["moretrees:beech_trunk"]                      = true
 	timber_nodenames["moretrees:birch_trunk"]                      = true
@@ -51,30 +51,33 @@ if minetest.get_modpath("moretrees") then
 	timber_nodenames["moretrees:spruce_trunk"]                     = true
 	timber_nodenames["moretrees:willow_trunk"]                     = true
 	timber_nodenames["moretrees:jungletree_trunk"]                 = true
+    timber_nodenames["moretrees:cedar_trunk"]                                 = true
 
 	if chainsaw_leaves then
-		timber_nodenames["moretrees:acacia_leaves"]            = true
-		timber_nodenames["moretrees:apple_tree_leaves"]        = true
-		timber_nodenames["moretrees:oak_leaves"]               = true
-		timber_nodenames["moretrees:fir_leaves"]               = true
-		timber_nodenames["moretrees:fir_leaves_bright"]        = true
-		timber_nodenames["moretrees:sequoia_leaves"]           = true
-		timber_nodenames["moretrees:birch_leaves"]             = true
-		timber_nodenames["moretrees:birch_leaves"]             = true
-		timber_nodenames["moretrees:palm_leaves"]              = true
-		timber_nodenames["moretrees:spruce_leaves"]            = true
-		timber_nodenames["moretrees:spruce_leaves"]            = true
-		timber_nodenames["moretrees:pine_leaves"]              = true
-		timber_nodenames["moretrees:willow_leaves"]            = true
-		timber_nodenames["moretrees:jungletree_leaves_green"]  = true
-		timber_nodenames["moretrees:jungletree_leaves_yellow"] = true
-		timber_nodenames["moretrees:jungletree_leaves_red"]    = true
-		timber_nodenames["moretrees:acorn"]                    = true
-		timber_nodenames["moretrees:coconut"]                  = true
-		timber_nodenames["moretrees:spruce_cone"]              = true
-		timber_nodenames["moretrees:pine_cone"]                = true
-		timber_nodenames["moretrees:fir_cone"]                 = true
-		timber_nodenames["moretrees:apple_blossoms"]           = true
+		timber_nodenames["moretrees:acacia_leaves"]               = true
+		timber_nodenames["moretrees:apple_tree_leaves"]           = true
+		timber_nodenames["moretrees:oak_leaves"]                  = true
+		timber_nodenames["moretrees:fir_leaves"]                  = true
+		timber_nodenames["moretrees:fir_leaves_bright"]           = true
+		timber_nodenames["moretrees:sequoia_leaves"]              = true
+		timber_nodenames["moretrees:birch_leaves"]                = true
+		timber_nodenames["moretrees:birch_leaves"]                = true
+		timber_nodenames["moretrees:palm_leaves"]                 = true
+		timber_nodenames["moretrees:spruce_leaves"]               = true
+		timber_nodenames["moretrees:spruce_leaves"]               = true
+		timber_nodenames["moretrees:pine_leaves"]                 = true
+		timber_nodenames["moretrees:willow_leaves"]               = true
+		timber_nodenames["moretrees:jungletree_leaves_green"]     = true
+		timber_nodenames["moretrees:jungletree_leaves_yellow"]    = true
+		timber_nodenames["moretrees:jungletree_leaves_red"]       = true
+		timber_nodenames["moretrees:acorn"]                       = true
+		timber_nodenames["moretrees:coconut"]                     = true
+		timber_nodenames["moretrees:spruce_cone"]                 = true
+		timber_nodenames["moretrees:pine_cone"]                   = true
+		timber_nodenames["moretrees:fir_cone"]                    = true
+		timber_nodenames["moretrees:apple_blossoms"]              = true
+        timber_nodenames["moretrees:cedar_leaves"]                = true
+        timber_nodenames["moretrees:cedar_cone"]                                      = true
 	end
 end
 
