@@ -1,0 +1,5 @@
+PixelPerfectionV36 16px [100%]
+(Converted from PixelPerfectionV36 with Minetest Texture and Resource Pack Converter)
+Original Description:
+XSSheep's Pixel Perfection.
+Pure pixely goodness.
