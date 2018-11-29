@@ -1,0 +1,4 @@
+# Configurações aplicaveis para o menu gráfico
+
+
+
