@@ -21,8 +21,8 @@ for name,xp in pairs({
 	["explorertools:pick_explorer"] = 4,
     ["explorertools:axe_explorer"] = 4,
     ["explorertools:shovel_explorer"] = 4,
+}) do
 	xpro.register_on_craft(name, xp)
 end
-
 
 
